@@ -1,6 +1,6 @@
 <template>
-<div class="container">
-  <div class="store-body">
+<div class="store-body">
+  <div class="container">
     <h3 class="title">Video Player</h3> 
        <div id="back">
           <nuxt-link class="back" :to="`/videos/`">
@@ -41,13 +41,13 @@
 }
  h3.title {
    position: absolute;
-    margin-top: -195px;
-    margin-left: -148px;
+    margin-top: -197px;
+    margin-left: -182px;
   }
 #back {
   position:relative;
   margin-left:-100px;
-  margin-top:-160px;
+  margin-top:-60px;
   a.back {
   font-weight: 800;
   color:#013B30;

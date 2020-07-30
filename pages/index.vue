@@ -1,7 +1,9 @@
 <template>
-  <div class="container">
-     <Header />
-      <div class="store-body">
+<div>
+   <Header />
+  <div class="store-body">
+    
+      <div class="container">
         <div id="index">
           <div class="card">
               <h4 class="title">
@@ -18,6 +20,10 @@ and the repository exists</small> , performing git clone to the starter template
                 <p>Evidence of all other required skills can be viewed in my development sandbox at http://uiuxsandbox.com and many other of my 
                   URLs listed on my cover letter.</p>
                 <p>Thank you,<br/>Adam L. Marsh</p>
+                <br/>
+                <p>$ git clone https://github.com/zom-b-food/vuex_video_storefi</p>
+                <p><small>Cover letter for this position:<br/> https://docs.google.com/document/d/16ns67eH_sD0AWJO5VrYWTPuWIjhh4rM-lnkK1hgc440/edit<br/>
+                Introductory Video:<br/> http://ui-design-engineering.com/greetings.avi</small></p>
               <div class="links">
                 <a
                   href="/register"
@@ -32,9 +38,17 @@ and the repository exists</small> , performing git clone to the starter template
       </div>
     </div>
   </div>
-</div>
+</div></div>
 </template>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.17.1/firebase-app.js"></script>
 
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.17.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
 <script>
 import Header from '@/components/Header'
 
@@ -56,18 +70,17 @@ export default {
 }
 
 .store-body {
-  margin-top:70px;
+  margin-top:-770px;
   h1 {
     margin-left:10px;
   }
 }
 
-#index {
-  margin-top:-700px;
+#index 
     h4 {
     margin-left:68px;
   }
-}
+
 
 .card {
   background-color:rgba(255,255,255,.9);

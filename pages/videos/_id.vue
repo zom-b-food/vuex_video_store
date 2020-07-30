@@ -1,21 +1,8 @@
 <template>
 <div>
-   <v-app>
-    <v-app-bar app color="white">
-      <div class="navbar">
-        <nuxt-link to="/">
-          <img class="logo" src="http://ui-design-engineering.com/vue/logo.jpg"/>
-        </nuxt-link>
-        <div class="fr">   
-          <div>
-             <v-btn text to="/">Logout</v-btn>
-          </div>    
-        </div>
-      </div>
-    </v-app-bar>    
-  </v-app>
-  <div> 
-    <div id="vid-component">
+  
+   <div class="vid-component">
+    <div class="container">
       <nuxt-child :video="video" />
     </div>
   </div>
@@ -120,43 +107,16 @@
   color:black;
 }
 
-#vid-component {
-  height:365;
-  width:579px;
-  padding:0;
-  margin-left: 12rem;
-  margin-top:260px;
-}
-
-.vid-box {
-  margin-top:10px;
-}
-
-.listbox-container {
-    margin:0 auto;
+.vid-component {
+   margin:0 auto;
     position: relative;
-    top:-700px;
+    margin-top:565px;
+    left:-132px;
     max-width:1100px;
-    h4 {
-    margin-left:68px;
+    h3 {
+    margin-left:100px;
+    color:#3DC065;
 }
-
-.listbox {
-    height:210px;
-    width:230px;
-    padding:2rem 1rem;
-    float:left;
-    margin:40px 35px; 
-    img {
-        width:230;
-        height:144;
-    }
-    p {
-        color:#013B2F;
-        font-size:.89rem;
-        line-height:16px;
-    }
-  }
 }
 
 .vid-box h5 {
@@ -171,5 +131,6 @@
 .v-application p {
     margin-top: 2px;
 }
+
 
 </style>

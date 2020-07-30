@@ -35,8 +35,14 @@
 
 <style scoped lang="scss">
 
+.store-body[data-v-18804380], .theme--light.v-application[data-v-18804380] {
+    background-color: #013b30;
+    color: #ffffff;
+    width: 100%;
+    margin-top: -970px !important;
+}
+
 .store-body {
-    margin-top: 70px;
     background-color: #013b30;
     color: #ffffff;
     width: 100%;

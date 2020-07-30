@@ -37,8 +37,13 @@ import Header from '@/components/Header'
 </script>
 
 <style scoped lang="scss">
+.store-body[data-v-2339929c], .theme--light.v-application[data-v-2339929c] {
+    background-color: #013b30;
+    color: #ffffff;
+    width: 100%;
+    margin-top: -970px !important;
+}
 .store-body {
-    margin-top: 70px;
     background-color: #013b30;
     color: #ffffff;
     width: 100%;

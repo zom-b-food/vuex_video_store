@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <div class="listbox-wrapper">
+  <div class="listbox-wrapper">
+    <div class="container">
       <h3>Videos</h3>
       <div v-for="video in videos" :key="video.id">
           <div class="listbox">
@@ -94,7 +94,7 @@
 .listbox-wrapper {
     margin:0 auto;
     position: relative;
-    top:-170px;
+    margin-top:-170px;
     left:78px;
     max-width:1100px;
     h3 {
