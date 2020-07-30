@@ -23,7 +23,7 @@ and the repository exists</small> , performing git clone to the starter template
                 <br/>
                 <p>$ git clone https://github.com/zom-b-food/vuex_video_storefi</p>
                 <p><small>Cover letter for this position:<br/> https://docs.google.com/document/d/16ns67eH_sD0AWJO5VrYWTPuWIjhh4rM-lnkK1hgc440/edit<br/>
-                Introductory Video:<br/> http://ui-design-engineering.com/greetings.avi</small></p>
+                Introductory Video:<br/> http://ui-design-engineering.com/AM-intro.mp4</small></p>
               <div class="links">
                 <a
                   href="/register"
