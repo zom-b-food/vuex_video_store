@@ -14,9 +14,9 @@
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
-and the repository exists</small> , performing git clone to the starter templates, I built what you have here from scratch. I 
+and the repository exists</small> , performing git clone to the starter templates was not possible so I built what you see here from scratch. I 
                 confess to going over the time expectation by 1 hour as I'm much more familiar with Angular than I am with VUEX/NUXT. In any
-                event, I'm confident all tasks could be completed and a few kinks ironed out given more time.  </p>
+                event, I'm confident all tasks could be completed and a few kinks ironed out given another two hours or so.  </p>
                 <p>Evidence of all other required skills can be viewed in my development sandbox at http://uiuxsandbox.com and many other of my 
                   URLs listed on my cover letter.</p>
                 <p>Thank you,<br/>Adam L. Marsh</p>
