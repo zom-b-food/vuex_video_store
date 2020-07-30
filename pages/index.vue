@@ -16,12 +16,12 @@ fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 and the repository exists</small> , performing git clone to the starter templates was not possible so I built what you see here from scratch. I 
                 confess to going over the time expectation by 1 hour as I'm much more familiar with Angular than I am with VUEX/NUXT. In any
-                event, I'm confident all tasks could be completed and a few kinks ironed out given another two hours or so.  </p>
+                event, I'm confident all tasks could be completed and a few kinks ironed out given another hour or so.  </p>
                 <p>Evidence of all other required skills can be viewed in my development sandbox at http://uiuxsandbox.com and many other of my 
                   URLs listed on my cover letter.</p>
                 <p>Thank you,<br/>Adam L. Marsh</p>
                 <br/>
-                <p>$ git clone https://github.com/zom-b-food/vuex_video_storefi</p>
+                <p>$ git clone https://github.com/zom-b-food/vuex_video_store</p>
                 <p><small>Cover letter for this position:<br/> https://docs.google.com/document/d/16ns67eH_sD0AWJO5VrYWTPuWIjhh4rM-lnkK1hgc440/edit<br/>
                 Introductory Video:<br/> http://ui-design-engineering.com/AM-intro.mp4</small></p>
               <div class="links">
