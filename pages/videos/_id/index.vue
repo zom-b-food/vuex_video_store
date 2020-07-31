@@ -43,7 +43,11 @@
    position: absolute;
     margin-top: -197px;
     margin-left: -182px;
-  }
+    color:#3DC065;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
 #back {
   position:relative;
   margin-left:-100px;
