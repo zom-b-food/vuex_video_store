@@ -39,7 +39,8 @@
     background-color: #013b30;
     color: #ffffff;
     width: 100%;
-    margin-top: -970px !important;
+    margin-top: -270px !important;
+    min-height: 1000px;
 }
 
 .store-body {
@@ -47,7 +48,6 @@
     color: #ffffff;
     width: 100%;
     min-height: 100vh;
-    margin-top: -836px !important;
 }
 
 .v-messages__message {

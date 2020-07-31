@@ -1,10 +1,8 @@
 <template>
 <div>
    <Header />
-  <div class="store-body">
-    
+    <div>   
       <div class="container">
-        <div id="index">
           <div class="card">
               <h4 class="title">
                 vuex_video_store
@@ -38,7 +36,7 @@ and the repository exists</small> , performing git clone to the starter template
       </div>
     </div>
   </div>
-</div></div>
+</div>
 </template>
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="/__/firebase/7.17.1/firebase-app.js"></script>
@@ -62,27 +60,14 @@ export default {
     }
 </script>
 
-<style scoped lang="scss">
-.store-body, .theme--light.v-application {
-  color: #013b30;
-  background-color:#ffffff;
-  width:100%;
+<style lang="scss">
+
+.v-application--wrap {
+    min-height: 23vh !important;
 }
-
-.store-body {
-  margin-top:-770px;
-  h1 {
-    margin-left:10px;
-  }
-}
-
-#index 
-    h4 {
-    margin-left:68px;
-  }
-
 
 .card {
+  margin-top:-88px;
   background-color:rgba(255,255,255,.9);
   height:600px;
   width:800px;

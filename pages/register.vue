@@ -3,8 +3,6 @@
  <Header />
  <div class="store-body">
 <div class="container">
-  
- 
     <div id="index">
         <h4>Register</h4>
         <div class="card">
@@ -41,14 +39,13 @@ import Header from '@/components/Header'
     background-color: #013b30;
     color: #ffffff;
     width: 100%;
-    margin-top: -970px !important;
+    margin-top: -270px !important;
+    min-height: 1000px;
 }
 .store-body {
     background-color: #013b30;
     color: #ffffff;
-    width: 100%;
-    min-height: 100vh;
-    margin-top: -836px !important;
+    width: 100%;       
 }
 
 .v-messages__message {
